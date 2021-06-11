@@ -1,16 +1,16 @@
 # Dapper ORM Nedir?
-ORM nedir? ilk olarak bu soruyu cevaplandıralım. ORM yani Object Relational Mapping, veritabanını doğrudan projelerinizdeki nesnelerle eşleyen bir yapıdır. Kodlarınız ile veritabanı arasındaki bir köprü gibi düşünebiliriz. ORM kullanarak veritabanından verileri okuyabilir ve veriler üzerinde değişiklikler yapabilirsiniz. ORM ile artık SQL sorguları yazmamıza gerek kalmıyor ve veritabanı ile doğrudan iletişime geçebiliyoruz.
+ORM nedir? ilk olarak bu soruyu cevaplandÄ±ralÄ±m. ORM yani Object Relational Mapping, veritabanÄ±nÄ± doÄŸrudan projelerinizdeki nesnelerle eÅŸleyen bir yapÄ±dÄ±r. KodlarÄ±nÄ±z ile veritabanÄ± arasÄ±ndaki bir kÃ¶prÃ¼ gibi dÃ¼ÅŸÃ¼nebiliriz. ORM kullanarak veritabanÄ±ndan verileri okuyabilir ve veriler Ã¼zerinde deÄŸiÅŸiklikler yapabilirsiniz. ORM ile artÄ±k SQL sorgularÄ± yazmamÄ±za gerek kalmÄ±yor ve veritabanÄ± ile doÄŸrudan iletiÅŸime geÃ§ebiliyoruz.
 
-Her programlama dilinde ORM bulunmaktadır. Bunlara bir kaç örnek verelim.
+Her programlama dilinde ORM bulunmaktadÄ±r. Bunlara bir kaÃ§ Ã¶rnek verelim.
 
-C# için "Entity Framework Core, Dapper", Python için "Django, Storm", Java için de "Hibernate, Ebean" örneklerini verebiliriz.
+C# iÃ§in "Entity Framework Core, Dapper", Python iÃ§in "Django, Storm", Java iÃ§in de "Hibernate, Ebean" Ã¶rneklerini verebiliriz.
 
-Dapper Micro ORM özellikleri:
--Performans açısından hızlıdır. En hızlı 2. ORM'dir.
--CRUD işlemlerini doğrudan IDBConnection nesnesini kullanarak gerçekleştirir.
--Veritabanı üzerinden statik ve dinamik verilerin sorgulanmasını sağlar.
--Dapper sadece tek bir "Dll"dir. Bu yüzden hızlıdır.
--Configuration dosyasına ihtiyaç duymaz.
--Stackoverflow tarafından geliştirilmiş bir ORM'dir.
+Dapper Micro ORM Ã¶zellikleri:
+- Performans aÃ§Ä±sÄ±ndan hÄ±zlÄ±dÄ±r. En hÄ±zlÄ± 2. ORM'dir.
+- CRUD iÅŸlemlerini doÄŸrudan IDBConnection nesnesini kullanarak gerÃ§ekleÅŸtirir.
+- VeritabanÄ± Ã¼zerinden statik ve dinamik verilerin sorgulanmasÄ±nÄ± saÄŸlar.
+- Dapper sadece tek bir "Dll"dir. Bu yÃ¼zden hÄ±zlÄ±dÄ±r.
+- Configuration dosyasÄ±na ihtiyaÃ§ duymaz.
+- Stackoverflow tarafÄ±ndan geliÅŸtirilmiÅŸ bir ORM'dir.
 
-Bu repoda Dapper ORM kullanılarak geliştirilmiş bir Web API proje örneği bulunmaktadır.
+Bu repoda Dapper ORM kullanÄ±larak geliÅŸtirilmiÅŸ bir Web API proje Ã¶rneÄŸi bulunmaktadÄ±r.
